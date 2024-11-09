@@ -1,7 +1,6 @@
 title: 📉2024 Competition
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
-markdown: kramdown
 
 url: https://KU-InThon-Datathon.github.io
 baseurl: "/2024"
@@ -28,10 +27,6 @@ navigation_header:
   url: /dashboard/
 
 nav_external_links:
-  - title: Kaggle
-    url: https://www.kaggle.com
-    hide_icon: false
-    opens_in_new_tab: true
   - title: Dashboard
     url: http://34.64.233.80:8501
     hide_icon: false
