@@ -82,8 +82,11 @@ InThon 데이터톤의 주제 키워드는 **멀티모달**이며, 세부 주제
   id2, [generated caption with image of id2]
   ...
   ```
-- **최종 제출 마감 후, 발표 자료와 소스 코드 파일**은 [구글 폼 링크](url)를 통해 제출해주세요.
-
+- **최종 제출 마감 후, 발표 자료와 소스 코드 파일**은 아래 구글 폼 링크를 통해 제출해주세요.
+  
+  [발표 자료 제출 링크](https://forms.gle/rNmfqQP2amxZpPPw9)
+  
+  [코드 제출 링크](https://forms.gle/3ozyjgfKJzJcr3pJ9)
 
 ## 📝 파일명 규칙
 
