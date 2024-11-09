@@ -23,6 +23,8 @@ navigation_header:
   url: /schedule/
 - title: Q&A
   url: /qna/
+- title: Leaderboard
+  url: /leaderboard/
 - title: Dashboard
   url: /dashboard/
 
