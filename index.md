@@ -140,15 +140,11 @@ InThon 데이터톤의 주제 키워드는 **멀티모달**이며, 세부 주제
 
 **Reliability** 점수는 모델이 생성한 캡션의 성능을 평가하는 **SPICE**, **CLIPScore**, **CHAIRf** 세 가지 지표를 사용해 계산됩니다. 구체적인 점수 산출 방식은 아래와 같습니다.
 
-$$s = 0.4 \times (\mathrm{SPICE}) + 0.2 \times \left(\frac{\mathrm{CLIPScore}}{250}\right) + 0.4 \times (\mathrm{CHAIRf})$$
-
 각 지표 설명:
 
 - **🧪 SPICE** ([논문 링크](https://arxiv.org/abs/1607.08822)): 텍스트의 질을 측정하며, 이미지 캡션을 개체, 속성, 관계의 조합으로 분석하여 생성된 캡션과 실제 캡션 간의 유사도를 평가합니다.
 - **📷 CLIPScore** ([논문 링크](https://arxiv.org/abs/2104.08718)): 이미지와 캡션 간 일관성을 평가하며, 사전 훈련된 이미지-언어 모델 CLIP의 임베딩을 사용합니다. 참조 캡션 없이도 이미지와 캡션의 일관성을 평가할 수 있습니다.
 - **📊 CHAIRf** ([논문 링크](https://arxiv.org/abs/1809.02156)): 생성된 캡션 내 잘못된 객체와 누락된 객체 비율을 계산하여 실제 객체와의 일치도를 평가합니다. Precision과 Recall을 모두 고려한 지표이며, 아래와 같이 계산됩니다.
-
-$$\text{CHAIRf} = 1 - \frac{|\text{\ hallucinated objects}| + | \text{missing objects \ } |}{|\ \text{caption objects}| + |\text{ground-truth objects} \ |}$$
 
 ### ♻️ Efficiency & Sustainability 가중치
 
