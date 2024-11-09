@@ -28,7 +28,7 @@ navigation_header:
 
 nav_external_links:
   - title: Dashboard
-    url: http://34.64.233.80:8501
+    url: https://2024-inthon-datathon.streamlit.app/
     hide_icon: false
     opens_in_new_tab: true
 
