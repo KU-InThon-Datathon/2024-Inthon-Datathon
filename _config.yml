@@ -5,13 +5,22 @@ theme: just-the-docs
 url: https://KU-InThon-Datathon.github.io
 baseurl: "/2024"
 
+collections:
+  schedules:
+defaults:
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+
 navigation_header:
 - title: Home
   url: /
 - title: Notice
   url: /notice/
 - title: Timeline
-  url: /timeline/
+  url: /schedule/
 - title: Q&A
   url: /qna/
 
@@ -21,3 +30,6 @@ nav_external_links:
     hide_icon: false
     opens_in_new_tab: false
 
+liquid:
+  error_mode: strict
+  strict_filters: true
