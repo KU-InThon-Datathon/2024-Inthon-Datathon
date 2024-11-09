@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-# 👋 Welcome to InThon 2024 Datathon Track! 👋 
+# 👋 Welcome to InThon 2024 Datathon Track!
 
 # Overview
 
