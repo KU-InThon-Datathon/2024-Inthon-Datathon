@@ -7,12 +7,26 @@ baseurl: "/2024"
 
 collections:
   schedules:
+  infos:
 defaults:
   - scope:
       path: ''
       type: schedules
     values:
       layout: schedule
+  - scope:
+      path: ''
+      type: infos
+    values:
+      layout: info
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      height: 300
+      subpath: '/assets/images/'
+      width: 300
 
 navigation_header:
 - title: Home
@@ -31,6 +45,10 @@ navigation_header:
 nav_external_links:
   - title: Dashboard
     url: https://2024-inthon-datathon.streamlit.app/
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Leaderboard
+    url: https://2024-inthon-datathon-leaderboard.streamlit.app/
     hide_icon: false
     opens_in_new_tab: true
 
